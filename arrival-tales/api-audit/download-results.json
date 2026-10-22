@@ -1,0 +1,98 @@
+[
+  {
+    "name": "maven-metadata.xml",
+    "url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/NaviHelper/maven-metadata.xml",
+    "checked_at": "2026-10-19T06:59:02.259721+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/NaviHelper/maven-metadata.xml",
+    "bytes": 398,
+    "sha256": "91784e531903322fdffe44a231c229508c28487a2eaff4d3034c5f773b2da85c"
+  },
+  {
+    "name": "NaviHelper-3.0.5.pom",
+    "url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/NaviHelper/3.0.5/NaviHelper-3.0.5.pom",
+    "checked_at": "2026-10-19T06:59:02.260722+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/NaviHelper/3.0.5/NaviHelper-3.0.5.pom",
+    "bytes": 1747,
+    "sha256": "39e93d10d8da7758e52c83186620a8965b3b0a46438851e1a2c0dab34d292c42"
+  },
+  {
+    "name": "NaviHelper-3.0.5.aar",
+    "url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/NaviHelper/3.0.5/NaviHelper-3.0.5.aar",
+    "checked_at": "2026-10-19T06:59:02.260722+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/NaviHelper/3.0.5/NaviHelper-3.0.5.aar",
+    "bytes": 65944,
+    "sha256": "15fadd11c7c611b1abdf7ebf9ce91f2a6ce2728e60b4e38b4343e11bb9c12e97"
+  },
+  {
+    "name": "access.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/create-my-project",
+    "checked_at": "2026-10-19T06:59:02.260722+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/create-my-project",
+    "bytes": 40170,
+    "sha256": "3a094846afb8569d3a0acc29b16f455dd692e385d4727d936a213a862da20071",
+    "text_chars": 4537
+  },
+  {
+    "name": "importing.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/importing-sdk",
+    "checked_at": "2026-10-19T06:59:02.262719+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/importing-sdk",
+    "bytes": 50323,
+    "sha256": "bd27cffe941d6dccca2947b65ace29562cf1b8940a4c77e6d6251018624b25a5",
+    "text_chars": 1844
+  },
+  {
+    "name": "permissions.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/declaring-permissions",
+    "checked_at": "2026-10-19T06:59:02.389720+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/declaring-permissions",
+    "bytes": 47387,
+    "sha256": "d1779a13102e1ce62eb42a2b2f4bef04245379f4739116348e9c7a0f72b07e13",
+    "text_chars": 2094
+  },
+  {
+    "name": "driving-state.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/navi-helper/ai.pleos.playground.navi.data/driving-state/entry",
+    "checked_at": "2026-10-19T06:59:02.389720+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/navi-helper/ai.pleos.playground.navi.data/driving-state/entry",
+    "bytes": 50626,
+    "sha256": "04a5d3d9e0ef554da557caa74c0f945394dfbb27fcd629832710e29fc51c972a",
+    "text_chars": 1434
+  },
+  {
+    "name": "listener.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/navi-helper/ai.pleos.playground.navi.helper.listener/navi-helper-event-listener/entry",
+    "checked_at": "2026-10-19T06:59:02.404719+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/navi-helper/ai.pleos.playground.navi.helper.listener/navi-helper-event-listener/entry",
+    "bytes": 40523,
+    "sha256": "03b2fc1eaf1f4d15e99b6f35237fda6ac3b8e0abe94ee446f47b54591848152e",
+    "text_chars": 994
+  },
+  {
+    "name": "audio-guide.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/vehicle-app-developer-guide/music-audio-app-developement-guide",
+    "checked_at": "2026-10-19T06:59:02.469718+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/vehicle-app-developer-guide/music-audio-app-developement-guide",
+    "bytes": 71394,
+    "sha256": "2de4c532072890eda049a5d3898b59c63de8a8d47ce6c03a5f6fe018aa8c6b7a",
+    "text_chars": 13169
+  }
+]
