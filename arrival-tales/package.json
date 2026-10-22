@@ -1,0 +1,15 @@
+{
+  "name": "arrival-tales",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ETA-adaptive audio story web prototype",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test --test-isolation=none tests/engine.test.mjs tests/controller.test.mjs",
+    "build:standalone": "node package-local.mjs"
+  }
+}
