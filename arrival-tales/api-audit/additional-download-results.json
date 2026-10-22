@@ -1,0 +1,75 @@
+[
+  {
+    "name": "navi-data-3.0.4.pom",
+    "url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/navi-data/3.0.4/navi-data-3.0.4.pom",
+    "checked_at": "2026-10-19T06:59:55.962466+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/navi-data/3.0.4/navi-data-3.0.4.pom",
+    "bytes": 778,
+    "sha256": "b35ba80a45baa2b59cbfbb9bb41510eae5081f2c6d38cfe4415055ecf13de397"
+  },
+  {
+    "name": "navi-data-3.0.4.aar",
+    "url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/navi-data/3.0.4/navi-data-3.0.4.aar",
+    "checked_at": "2026-10-19T06:59:55.963468+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/navi-data/3.0.4/navi-data-3.0.4.aar",
+    "bytes": 298474,
+    "sha256": "7ca00e592134b53237a48cc3b7864063ecc5e2885465e3ce9c8c2a29789a2e2b"
+  },
+  {
+    "name": "navi-aidl-3.0.1.pom",
+    "url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/navi-aidl/3.0.1/navi-aidl-3.0.1.pom",
+    "checked_at": "2026-10-19T06:59:55.963468+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/navi-aidl/3.0.1/navi-aidl-3.0.1.pom",
+    "bytes": 607,
+    "sha256": "eeb8c797b9dcd05652bb5157073814d7da8fe7cb12b6e76a1bd29a379703bfe3"
+  },
+  {
+    "name": "navi-aidl-3.0.1.aar",
+    "url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/navi-aidl/3.0.1/navi-aidl-3.0.1.aar",
+    "checked_at": "2026-10-19T06:59:55.963468+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://nexus-playground.pleos.ai/repository/maven-releases/ai/pleos/playground/navi-aidl/3.0.1/navi-aidl-3.0.1.aar",
+    "bytes": 17213,
+    "sha256": "384e62b9b17102ce618272f4afbef5021867c04bd13e46a6592218643ceb40ff"
+  },
+  {
+    "name": "initialization.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/initialization-and-release",
+    "checked_at": "2026-10-19T06:59:55.964465+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/initialization-and-release",
+    "bytes": 62029,
+    "sha256": "079ea212ab47bb4385582994e9fefb1f04fc0042660270a00ed96c2046138480",
+    "text_chars": 2814
+  },
+  {
+    "name": "event-listeners.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/event-listeners",
+    "checked_at": "2026-10-19T06:59:56.065467+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/event-listeners",
+    "bytes": 59722,
+    "sha256": "7d53785c4cf7d635890bdd0edcc846ffe13f74217e4b19c0120b255f9679eafe",
+    "text_chars": 3178
+  },
+  {
+    "name": "introduction.html",
+    "url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/introduction",
+    "checked_at": "2026-10-19T06:59:56.066467+00:00",
+    "authentication": "none",
+    "status": 200,
+    "final_url": "https://document.pleos.ai/en/docs/pleos-only/connect-sdk-pleos/NaviHelper/introduction",
+    "bytes": 26049,
+    "sha256": "f27ac7883ac9cafa6a0a6d11a45885d65c2c9aea3d22069a6a6c9c8d445a036e",
+    "text_chars": 418
+  }
+]
