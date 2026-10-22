@@ -1,0 +1,42 @@
+[
+  {
+    "check": "onDrivingInfo receives DrivingInfo",
+    "passed": true
+  },
+  {
+    "check": "destination returns DrivingState",
+    "passed": true
+  },
+  {
+    "check": "duration is JVM int",
+    "passed": true
+  },
+  {
+    "check": "onDestinationArrived exists",
+    "passed": true
+  },
+  {
+    "check": "onReRouteEnded exists",
+    "passed": true
+  },
+  {
+    "check": "onRouteCancelled exists",
+    "passed": true
+  },
+  {
+    "check": "listener add/remove available",
+    "passed": true
+  },
+  {
+    "check": "getDrivingInfo absent from public helper",
+    "passed": true
+  },
+  {
+    "check": "destination query annotated NAVI_ROUTE",
+    "passed": true
+  },
+  {
+    "check": "rendered docs define duration as remaining seconds",
+    "passed": true
+  }
+]
