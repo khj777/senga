@@ -1,0 +1,1116 @@
+[
+  {
+    "class": "ai/pleos/playground/navi/data/DestinationArrivedInfo",
+    "java_major": 61,
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "fields": [
+      {
+        "name": "Companion",
+        "descriptor": "Lai/pleos/playground/navi/data/DestinationArrivedInfo$Companion;",
+        "flags": 25,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      }
+    ],
+    "methods": [
+      {
+        "name": "<init>",
+        "descriptor": "(IILjava/lang/String;Ljava/lang/String;)V",
+        "flags": 1
+      },
+      {
+        "name": "getDuration",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "getDistance",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "getName",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "getAddress",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "component1",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "component2",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "component3",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "component4",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "copy",
+        "descriptor": "(IILjava/lang/String;Ljava/lang/String;)Lai/pleos/playground/navi/data/DestinationArrivedInfo;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "copy$default",
+        "descriptor": "(Lai/pleos/playground/navi/data/DestinationArrivedInfo;IILjava/lang/String;Ljava/lang/String;ILjava/lang/Object;)Lai/pleos/playground/navi/data/DestinationArrivedInfo;",
+        "flags": 4105
+      },
+      {
+        "name": "toString",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 1,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "hashCode",
+        "descriptor": "()I",
+        "flags": 1
+      },
+      {
+        "name": "equals",
+        "descriptor": "(Ljava/lang/Object;)Z",
+        "flags": 1
+      },
+      {
+        "name": "write$Self$data_release",
+        "descriptor": "(Lai/pleos/playground/navi/data/DestinationArrivedInfo;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V",
+        "flags": 4121,
+        "RuntimeVisibleAnnotations": [
+          {
+            "type": "Lkotlin/jvm/JvmStatic;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(IIILjava/lang/String;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V",
+        "flags": 4097,
+        "RuntimeVisibleAnnotations": [
+          {
+            "type": "Lkotlin/Deprecated;",
+            "values": {
+              "message": "This synthesized declaration should not be used directly",
+              "replaceWith": {
+                "type": "Lkotlin/ReplaceWith;",
+                "values": {
+                  "expression": "",
+                  "imports": []
+                }
+              },
+              "level": [
+                "Lkotlin/DeprecationLevel;",
+                "HIDDEN"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "relevant_strings": [],
+    "artifact": "navi-data-3.0.4.aar"
+  },
+  {
+    "class": "ai/pleos/playground/navi/data/DrivingInfo",
+    "java_major": 61,
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "fields": [
+      {
+        "name": "Companion",
+        "descriptor": "Lai/pleos/playground/navi/data/DrivingInfo$Companion;",
+        "flags": 25,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      }
+    ],
+    "methods": [
+      {
+        "name": "<init>",
+        "descriptor": "(Lai/pleos/playground/navi/data/DrivingState;Ljava/util/List;)V",
+        "flags": 1
+      },
+      {
+        "name": "getDestination",
+        "descriptor": "()Lai/pleos/playground/navi/data/DrivingState;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "getWaypoints",
+        "descriptor": "()Ljava/util/List;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "component1",
+        "descriptor": "()Lai/pleos/playground/navi/data/DrivingState;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "component2",
+        "descriptor": "()Ljava/util/List;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "copy",
+        "descriptor": "(Lai/pleos/playground/navi/data/DrivingState;Ljava/util/List;)Lai/pleos/playground/navi/data/DrivingInfo;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "copy$default",
+        "descriptor": "(Lai/pleos/playground/navi/data/DrivingInfo;Lai/pleos/playground/navi/data/DrivingState;Ljava/util/List;ILjava/lang/Object;)Lai/pleos/playground/navi/data/DrivingInfo;",
+        "flags": 4105
+      },
+      {
+        "name": "toString",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 1,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "hashCode",
+        "descriptor": "()I",
+        "flags": 1
+      },
+      {
+        "name": "equals",
+        "descriptor": "(Ljava/lang/Object;)Z",
+        "flags": 1
+      },
+      {
+        "name": "write$Self$data_release",
+        "descriptor": "(Lai/pleos/playground/navi/data/DrivingInfo;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V",
+        "flags": 4121,
+        "RuntimeVisibleAnnotations": [
+          {
+            "type": "Lkotlin/jvm/JvmStatic;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(ILai/pleos/playground/navi/data/DrivingState;Ljava/util/List;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V",
+        "flags": 4097,
+        "RuntimeVisibleAnnotations": [
+          {
+            "type": "Lkotlin/Deprecated;",
+            "values": {
+              "message": "This synthesized declaration should not be used directly",
+              "replaceWith": {
+                "type": "Lkotlin/ReplaceWith;",
+                "values": {
+                  "expression": "",
+                  "imports": []
+                }
+              },
+              "level": [
+                "Lkotlin/DeprecationLevel;",
+                "HIDDEN"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "access$get$childSerializers$cp",
+        "descriptor": "()[Lkotlinx/serialization/KSerializer;",
+        "flags": 4121
+      }
+    ],
+    "relevant_strings": [],
+    "artifact": "navi-data-3.0.4.aar"
+  },
+  {
+    "class": "ai/pleos/playground/navi/data/DrivingState",
+    "java_major": 61,
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "fields": [
+      {
+        "name": "Companion",
+        "descriptor": "Lai/pleos/playground/navi/data/DrivingState$Companion;",
+        "flags": 25,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      }
+    ],
+    "methods": [
+      {
+        "name": "<init>",
+        "descriptor": "(Ljava/lang/String;IIIZZIIILai/pleos/playground/navi/data/ChargingPlan;)V",
+        "flags": 1
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(Ljava/lang/String;IIIZZIIILai/pleos/playground/navi/data/ChargingPlan;ILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+        "flags": 4097
+      },
+      {
+        "name": "getName",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "getDuration",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "getDistance",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "getRemainDestinationChargingValue",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "isChargingStation",
+        "descriptor": "()Z",
+        "flags": 17
+      },
+      {
+        "name": "isRecommendedChargingStation",
+        "descriptor": "()Z",
+        "flags": 17
+      },
+      {
+        "name": "getMaxChargingPower",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "getTargetSoc",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "getChargerCount",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "getChargingPlan",
+        "descriptor": "()Lai/pleos/playground/navi/data/ChargingPlan;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/Nullable;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "component1",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "component2",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "component3",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "component4",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "component5",
+        "descriptor": "()Z",
+        "flags": 17
+      },
+      {
+        "name": "component6",
+        "descriptor": "()Z",
+        "flags": 17
+      },
+      {
+        "name": "component7",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "component8",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "component9",
+        "descriptor": "()I",
+        "flags": 17
+      },
+      {
+        "name": "component10",
+        "descriptor": "()Lai/pleos/playground/navi/data/ChargingPlan;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/Nullable;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "copy",
+        "descriptor": "(Ljava/lang/String;IIIZZIIILai/pleos/playground/navi/data/ChargingPlan;)Lai/pleos/playground/navi/data/DrivingState;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "copy$default",
+        "descriptor": "(Lai/pleos/playground/navi/data/DrivingState;Ljava/lang/String;IIIZZIIILai/pleos/playground/navi/data/ChargingPlan;ILjava/lang/Object;)Lai/pleos/playground/navi/data/DrivingState;",
+        "flags": 4105
+      },
+      {
+        "name": "toString",
+        "descriptor": "()Ljava/lang/String;",
+        "flags": 1,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "hashCode",
+        "descriptor": "()I",
+        "flags": 1
+      },
+      {
+        "name": "equals",
+        "descriptor": "(Ljava/lang/Object;)Z",
+        "flags": 1
+      },
+      {
+        "name": "write$Self$data_release",
+        "descriptor": "(Lai/pleos/playground/navi/data/DrivingState;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V",
+        "flags": 4121,
+        "RuntimeVisibleAnnotations": [
+          {
+            "type": "Lkotlin/jvm/JvmStatic;",
+            "values": {}
+          }
+        ]
+      },
+      {
+        "name": "<init>",
+        "descriptor": "(ILjava/lang/String;IIIZZIIILai/pleos/playground/navi/data/ChargingPlan;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V",
+        "flags": 4097,
+        "RuntimeVisibleAnnotations": [
+          {
+            "type": "Lkotlin/Deprecated;",
+            "values": {
+              "message": "This synthesized declaration should not be used directly",
+              "replaceWith": {
+                "type": "Lkotlin/ReplaceWith;",
+                "values": {
+                  "expression": "",
+                  "imports": []
+                }
+              },
+              "level": [
+                "Lkotlin/DeprecationLevel;",
+                "HIDDEN"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "relevant_strings": [],
+    "artifact": "navi-data-3.0.4.aar"
+  },
+  {
+    "class": "ai/pleos/playground/navi/helper/NaviHelper",
+    "java_major": 52,
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "fields": [],
+    "methods": [
+      {
+        "name": "<init>",
+        "descriptor": "(Landroid/content/Context;)V",
+        "flags": 1
+      },
+      {
+        "name": "access$isInitialized$p",
+        "descriptor": "(Lai/pleos/playground/navi/helper/NaviHelper;)Ljava/util/concurrent/atomic/AtomicBoolean;",
+        "flags": 4121
+      },
+      {
+        "name": "initialize",
+        "descriptor": "()V",
+        "flags": 17
+      },
+      {
+        "name": "initialize",
+        "descriptor": "(Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;)V",
+        "flags": 17
+      },
+      {
+        "name": "release",
+        "descriptor": "()V",
+        "flags": 17
+      },
+      {
+        "name": "addListener",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;)V",
+        "flags": 17
+      },
+      {
+        "name": "removeListener",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;)V",
+        "flags": 17
+      },
+      {
+        "name": "requestRoute",
+        "descriptor": "(Lai/pleos/playground/navi/data/RouteInfo;)V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE_SEARCH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "requestRouteWithWaypoints",
+        "descriptor": "(Lai/pleos/playground/navi/data/RouteWithWaypointsRequest;)V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE_SEARCH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "cancelRoute",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE_SEARCH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "addWaypoint",
+        "descriptor": "(Lai/pleos/playground/navi/data/RequestWaypointInfo;)V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE_SEARCH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "removeWaypoint",
+        "descriptor": "(Lai/pleos/playground/navi/constants/WaypointIndex;)V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE_SEARCH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "changeRouteOption",
+        "descriptor": "(Lai/pleos/playground/navi/constants/RouteOption;)V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE_SEARCH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "requestReRoute",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE_SEARCH"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getBookmarkInfo",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getRecentDestinationInfo",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getRouteStateInfo",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getCurrentLocationInfo",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getDestinationInfo",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getWaypointInfo",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getTBTInfo",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getChargerOperatorInfo",
+        "descriptor": "()V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "requestNavigationScreen",
+        "descriptor": "(Lai/pleos/playground/navi/data/NavigationScreenRequest;)V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_CUSTOM_MAP"
+            }
+          }
+        ]
+      },
+      {
+        "name": "requestTrip",
+        "descriptor": "(Lai/pleos/playground/navi/data/TripRequest;)V",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Landroidx/annotation/RequiresPermission;",
+            "values": {
+              "value": "pleos.car.permission.NAVI_ROUTE"
+            }
+          }
+        ]
+      },
+      {
+        "name": "getInternalApi",
+        "descriptor": "()Lai/pleos/playground/navi/helper/api/InternalApi;",
+        "flags": 17,
+        "RuntimeInvisibleAnnotations": [
+          {
+            "type": "Lorg/jetbrains/annotations/NotNull;",
+            "values": {}
+          }
+        ]
+      }
+    ],
+    "relevant_strings": [
+      "pleos.car.permission.NAVI_ROUTE_SEARCH",
+      "pleos.car.permission.NAVI_ROUTE",
+      "pleos.car.permission.NAVI_CUSTOM_MAP"
+    ],
+    "artifact": "NaviHelper-3.0.5.aar"
+  },
+  {
+    "class": "ai/pleos/playground/navi/helper/listener/NaviHelperEventListener",
+    "java_major": 52,
+    "super": "java/lang/Object",
+    "interfaces": [],
+    "fields": [],
+    "methods": [
+      {
+        "name": "access$onRouteStarted$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/RouteStartInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onRouteEnded$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onRoutingCompleted$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onReRouteEnded$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onRouteOptionChanged$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/constants/RouteOption;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onRouteCancelled$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onWaypointChanged$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/WaypointChangedInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onDestinationArrived$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/DestinationArrivedInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onWayPointArrived$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/WaypointArrivedInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onBookMarkChanged$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onDestinationChanged$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onError$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/constants/NaviErrorCode;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onCurrentLocationInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/CurrentLocationInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onRouteStateInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/RouteStateInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onDestinationInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/DestinationInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onWayPointInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Ljava/util/List;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onRecentDestinationInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Ljava/util/List;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onBookmarkInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Ljava/util/List;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onCurrentRoadSpeedLimit$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;I)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onCameraAlert$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Ljava/util/List;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onDrivingInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/DrivingInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onNavigationStatus$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/constants/NavigationStatus;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onTBTInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Ljava/util/List;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onChargerOperatorInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Ljava/util/List;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onCautionPointInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Ljava/util/List;)V",
+        "flags": 4105
+      },
+      {
+        "name": "access$onTripInfo$jd",
+        "descriptor": "(Lai/pleos/playground/navi/helper/listener/NaviHelperEventListener;Lai/pleos/playground/navi/data/TripInfo;)V",
+        "flags": 4105
+      },
+      {
+        "name": "onRouteStarted",
+        "descriptor": "(Lai/pleos/playground/navi/data/RouteStartInfo;)V",
+        "flags": 1
+      },
+      {
+        "name": "onRouteEnded",
+        "descriptor": "()V",
+        "flags": 1,
+        "RuntimeVisibleAnnotations": [
+          {
+            "type": "Lkotlin/Deprecated;",
+            "values": {
+              "message": "Use onRoutingCompleted() instead",
+              "replaceWith": {
+                "type": "Lkotlin/ReplaceWith;",
+                "values": {
+                  "expression": "onRoutingCompleted()",
+                  "imports": []
+                }
+              },
+              "level": [
+                "Lkotlin/DeprecationLevel;",
+                "WARNING"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "onRoutingCompleted",
+        "descriptor": "()V",
+        "flags": 1
+      },
+      {
+        "name": "onReRouteEnded",
+        "descriptor": "()V",
+        "flags": 1
+      },
+      {
+        "name": "onRouteOptionChanged",
+        "descriptor": "(Lai/pleos/playground/navi/constants/RouteOption;)V",
+        "flags": 1
+      },
+      {
+        "name": "onRouteCancelled",
+        "descriptor": "()V",
+        "flags": 1
+      },
+      {
+        "name": "onWaypointChanged",
+        "descriptor": "(Lai/pleos/playground/navi/data/WaypointChangedInfo;)V",
+        "flags": 1
+      },
+      {
+        "name": "onDestinationArrived",
+        "descriptor": "(Lai/pleos/playground/navi/data/DestinationArrivedInfo;)V",
+        "flags": 1
+      },
+      {
+        "name": "onWayPointArrived",
+        "descriptor": "(Lai/pleos/playground/navi/data/WaypointArrivedInfo;)V",
+        "flags": 1
+      },
+      {
+        "name": "onBookMarkChanged",
+        "descriptor": "()V",
+        "flags": 1
+      },
+      {
+        "name": "onDestinationChanged",
+        "descriptor": "()V",
+        "flags": 1
+      },
+      {
+        "name": "onError",
+        "descriptor": "(Lai/pleos/playground/navi/constants/NaviErrorCode;)V",
+        "flags": 1
+      },
+      {
+        "name": "onCurrentLocationInfo",
+        "descriptor": "(Lai/pleos/playground/navi/data/CurrentLocationInfo;)V",
+        "flags": 1
+      },
+      {
+        "name": "onRouteStateInfo",
+        "descriptor": "(Lai/pleos/playground/navi/data/RouteStateInfo;)V",
+        "flags": 1
+      },
+      {
+        "name": "onDestinationInfo",
+        "descriptor": "(Lai/pleos/playground/navi/data/DestinationInfo;)V",
+        "flags": 1
+      },
+      {
+        "name": "onWayPointInfo",
+        "descriptor": "(Ljava/util/List;)V",
+        "flags": 1
+      },
+      {
+        "name": "onRecentDestinationInfo",
+        "descriptor": "(Ljava/util/List;)V",
+        "flags": 1
+      },
+      {
+        "name": "onBookmarkInfo",
+        "descriptor": "(Ljava/util/List;)V",
+        "flags": 1
+      },
+      {
+        "name": "onCurrentRoadSpeedLimit",
+        "descriptor": "(I)V",
+        "flags": 1
+      },
+      {
+        "name": "onCameraAlert",
+        "descriptor": "(Ljava/util/List;)V",
+        "flags": 1
+      },
+      {
+        "name": "onDrivingInfo",
+        "descriptor": "(Lai/pleos/playground/navi/data/DrivingInfo;)V",
+        "flags": 1
+      },
+      {
+        "name": "onNavigationStatus",
+        "descriptor": "(Lai/pleos/playground/navi/constants/NavigationStatus;)V",
+        "flags": 1
+      },
+      {
+        "name": "onTBTInfo",
+        "descriptor": "(Ljava/util/List;)V",
+        "flags": 1
+      },
+      {
+        "name": "onChargerOperatorInfo",
+        "descriptor": "(Ljava/util/List;)V",
+        "flags": 1
+      },
+      {
+        "name": "onCautionPointInfo",
+        "descriptor": "(Ljava/util/List;)V",
+        "flags": 1
+      },
+      {
+        "name": "onTripInfo",
+        "descriptor": "(Lai/pleos/playground/navi/data/TripInfo;)V",
+        "flags": 1
+      }
+    ],
+    "relevant_strings": [],
+    "artifact": "NaviHelper-3.0.5.aar"
+  }
+]
